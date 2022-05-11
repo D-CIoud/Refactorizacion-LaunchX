@@ -1,6 +1,6 @@
 const FizzBuzz = require('../lib/utils/FizzBuzzService')
 
-describe('Test for reading an archive correctly', () =>{
+describe('Test for FIZZBUZZ Explorers', () =>{
     test('1. Divide by 3 and return FIZZ', () => {
         const explorer1 = { name: "Explorer1", score: 3}
         const divide3 = FizzBuzz.applyValidationInExplorer(explorer1)
