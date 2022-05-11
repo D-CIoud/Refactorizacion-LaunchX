@@ -8,7 +8,7 @@ describe('Test for Explorer Service Class', () =>{
     test('1. Filter by Mission', () => {
         const Explorer = ExplorerSRV.filterByMission(explorers,'node')
         expect(Explorer[0].mission).toBe('node')
-        expect(Explorer[1].mission).toBe('node')
+        expect(Explorer[1].mission).toBe('javascript')
     })
 
     test('2. Get Amount of Explorers by mission', () => {
