@@ -29,6 +29,11 @@ describe("Test for FIZZBUZZ Explorers", () =>{
         expect(expldiv.trick).toBe(17);
     });
 
+    test("5. Validate if number is divisible between 3 or 15, if not return score", () => {
+        const number = 15;
+        const ValNum = FizzBuzz.applyValidationInNumber(number);
 
-    //En esta prueba valide que leyera bien de la ruta el archivo y que si estuviera leyendo bien el archivo validando el nombre de los explorers Testing
+        expect(ValNum).toBe("FIZZBUZZ");
+    });
+
 });
